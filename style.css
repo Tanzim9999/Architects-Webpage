@@ -160,9 +160,9 @@
   text-align: center;
 }
 .loveimg p {
-    font-weight: 500;
-    font-size: 1.3rem;
-    text-align: center;
+  font-weight: 500;
+  font-size: 1.3rem;
+  text-align: center;
 }
 .lovetext > h3 {
   color: rgb(19, 19, 19);
@@ -205,7 +205,100 @@
   font-weight: 400;
   text-align: left;
 }
+/* Facts Page style starts here  */
+.facts-section {
+  padding: 85px 130px 0px 130px;
+  /* height: 500px; */
+}
+.facts-section > h3 {
+  color: rgb(19, 19, 19);
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.facts-section > p {
+  color: rgb(114, 114, 114);
+  font-family: Work Sans;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 80px;
+}
+.facts-card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* align-items: center; */
+  /* justify-content:center; */
+  gap: 100px;
+}
+.facts-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 144, 14);
+  border-radius: 8px;
+  padding: 50px 40px;
+  gap: 8px;
+}
+.facts-card > h3 {
+  color: rgb(66, 66, 66);
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: left;
+}
+.facts-card > p {
+  color: rgb(114, 114, 114);
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: left;
+}
 
+/* sponsors section starts here  */
+.sponsors-section {
+  padding: 85px 130px 0px 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sponsors-section > h3 {
+  color: rgb(19, 19, 19);
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.sponsors-section > p {
+  color: rgb(114, 114, 114);
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.sponsors-images {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 80px;
+  margin-bottom: 100px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 8px;
+  height: 80px;
+  align-items: center;
+  background: rgb(255, 244, 231);
+}
+.footer p {
+  color: rgb(66, 66, 66);
+  font-size: 1rem;
+  line-height: 25px;
+  font-weight: 400;
+  text-align: center;
+}
 @media screen and (max-width: 576px) {
   /* banner-section-formobile  */
   .banner-container,
@@ -247,9 +340,26 @@
   }
   .loveimg button {
     margin-left: 0px;
-    margin-top: -150px ;
+    margin-top: -150px;
   }
-  .love-card1{
+  .love-card1 {
     padding: 0px;
   }
+  /* facts mobile version starts here  */
+.facts-section {
+    margin-top: 20px;
+    padding: 0px;
+}
+.facts-card-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+/* sponsors mobile version starts here  */
+.sponsors-section {
+    margin-top: 20px;
+    padding: 0px;
+}
+.sponsors-images {
+    grid-template-columns: 1fr;
+}
 }
