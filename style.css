@@ -282,6 +282,7 @@
   grid-template-columns: repeat(5, 1fr);
   gap: 80px;
   margin-bottom: 100px;
+  filter: grayscale();
 }
 .footer {
   display: flex;
