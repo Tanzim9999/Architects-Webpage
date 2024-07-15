@@ -236,4 +236,20 @@
   .feature-texts {
     margin-top: 50px;
   }
+  /* love section mobile version starts here  */
+  .love-section {
+    padding: 0px;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .love-section img {
+    width: 100%;
+  }
+  .loveimg button {
+    margin-left: 0px;
+    margin-top: -150px ;
+  }
+  .love-card1{
+    padding: 0px;
+  }
 }
